@@ -1,0 +1,63 @@
+name: demo
+description: Managing and watching zoning in maps.
+publish_to: 'none' 
+version: 1.0.0+1
+environment:
+  sdk: ">=2.17.6 <3.0.0"
+  
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  sizer: ^2.0.15
+  mapbox_gl: ^0.16.0
+  flutter_launcher_icons: ^0.10.0
+  flutter_native_splash: ^2.2.7
+  provider: ^6.0.3
+  geolocator: ^9.0.1
+  http: ^0.13.5
+  shared_preferences: ^2.0.15
+  flutter_easyloading: ^3.0.5
+  firebase_messaging: ^12.0.2
+  firebase_core: ^1.20.1
+  overlay_support: ^2.0.1
+  advance_pdf_viewer: ^2.0.1
+  flutter_cached_pdfview: ^0.4.1
+  location: ^4.4.0
+  cached_network_image: ^3.2.1
+  scrollable_positioned_list: ^0.3.2
+  google_fonts: ^3.0.1
+  get: ^4.6.5
+  pandabar: ^0.1.2
+  snapping_sheet: ^3.1.0
+  getwidget: ^3.0.1
+  flutter_map: ^3.1.0
+  latlong2: ^0.8.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.1
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/no_image.jpeg"
+
+flutter_native_splash:
+  color: "#ffffff"
+  image: "assets/images/no_image.jpeg"
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/no_image.jpeg
+    - assets/styles/dark.png
+    - assets/styles/navigator_day.png
+    - assets/styles/outdoors.png
+    - assets/styles/satellite.png
+
